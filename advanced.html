@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="advanced-navbar">
+      <a href="index.html">
+        <img
+          src="assets/google.png"
+          alt="google-logo"
+          height="25px"
+          width="auto"
+        />
+      </a>
+      <a class="nav" href="index.html">Back</a>
+    </nav>
+    <p style="color: #d93025; font-size: 20px; margin: 25px 25px">
+      Advanced Search
+    </p>
+    <hr class="advanced-search-divider" />
+    <!-- Main -->
+    <main>
+      <div class="advanced-search-container">
+        <div class="advanced-search-box">
+          <p style="margin-bottom: 17px">Find pages with...</p>
+        </div>
+        <form action="http://www.google.com/search">
+          <div class="advanced-search-box">
+            <span class="small-text advanced-search-label"
+              >all these words:</span
+            >
+            <span class="advanced-search-input-container">
+              <input type="text" name="as_q" class="advanced-search-input" />
+            </span>
+          </div>
+          <div class="advanced-search-box">
+            <span class="small-text advanced-search-label"
+              >this exact word or phrase:</span
+            >
+            <span class="advanced-search-input-container">
+              <input type="text" name="as_epq" class="advanced-search-input" />
+            </span>
+          </div>
+          <div class="advanced-search-box">
+            <span class="small-text advanced-search-label"
+              >any of these words:</span
+            >
+            <span class="advanced-search-input-container">
+              <input type="text" name="as_oq" class="advanced-search-input" />
+            </span>
+          </div>
+          <div class="advanced-search-box">
+            <span class="small-text advanced-search-label"
+              >none of these words:</span
+            >
+            <span class="advanced-search-input-container">
+              <input type="text" name="as_eq" class="advanced-search-input" />
+            </span>
+          </div>
+          <div class="advanced-search-cta">
+            <button class="advanced-search-button" type="submit">
+              Advanced Search
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

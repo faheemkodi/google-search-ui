@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar">
+      <a class="nav" href="index.html">Back</a>
+    </nav>
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <div class="hero-image">
+          <img src="assets/google.png" alt="Google" />
+          <span class="google-images">images</span>
+        </div>
+        <div class="search-box-container">
+          <form action="https://www.google.com/search">
+            <div class="search-box">
+              <input type="text" name="q" class="search-input" />
+              <input type="text" name="tbm" value="isch" hidden />
+            </div>
+            <div class="cta-container">
+              <button type="submit" class="cta-button">Image Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
